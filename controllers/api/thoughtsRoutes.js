@@ -1,6 +1,7 @@
-const thought = require('../models/thoughts');
-const router = require('express').Router();
+const express = require('express');
+const router = express.Router();
+const thoughts  = require('../../models/thoughts');
 
 
 
-module.exports = thoughtsRoutes;
+module.exports = router;
