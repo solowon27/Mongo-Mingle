@@ -1,12 +1,14 @@
 const { Users } = require('../../models');
 const { friends } = require('../../models');
+const { thoughts } = require('../../models');
 const express = require('express');
 const router = express.Router();
 
 
 router.get('/', async (req, res) => {
     try {
-        const allUsers = await Users.find();
+        const allUsers = await Users.find().populate('friends').populate('thoughts');
+        console.log('Populated Users:',allUsers);
         res.status(200).json(allUsers);
     } catch (err) {
         res.status(500).json(err);
