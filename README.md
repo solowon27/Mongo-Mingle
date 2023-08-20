@@ -11,6 +11,7 @@ Mongo Mingle is a web application that allows users to share their thoughts and 
 - [API Endpoints](#api-endpoints)
 - [Usage](#usage)
 - [Links](#Links)
+- [Screenshoots](#Screenshoots)
 - [Contributing](#contributing)
 - [License](#license)
 - [contact](#Contact)
@@ -61,6 +62,16 @@ Use tools like Insomnia or Postman to interact with the API endpoints. Detailed 
 # Links
 
 1. video demo link []
+
+# Screenshoots
+
+![get all user](/Assets/get%20all%20users.jpg)
+![create new user](/Assets/create%20a%20new%20user.jpg).
+![get all thoughts](/Assets/get%20all%20thoughts.jpg)
+![create reactions](/Assets/create%20a%20reaction%20using%20thought%20id.jpg)
+![create friends](/Assets/delet%20a%20new%20friend%20using%20friend%20id.jpg)
+
+```NOTICE: YOU CAN FOUND ALL REQUEST TESTS INSIDE ASSET FOLDERS, THE ABOVE SCREEN SHOOTS ARE FOR THE DEMO ```
 
 # Contributing
 Contributions are welcome! If you find any issues or improvements, feel free to open a pull request.
