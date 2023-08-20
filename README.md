@@ -10,11 +10,11 @@ Mongo Mingle is a web application that allows users to share their thoughts and 
 - [Getting Started](#getting-started)
 - [API Endpoints](#api-endpoints)
 - [Usage](#usage)
-- [Links](#Links)
-- [Screenshoots](#Screenshoots)
+- [Links](#links)
+- [Screenshoots](#screenshoots)
 - [Contributing](#contributing)
 - [License](#license)
-- [contact](#Contact)
+- [contact](#contact)
 
 ## Features
 
@@ -77,9 +77,9 @@ Use tools like Insomnia or Postman to interact with the API endpoints. Detailed 
 Contributions are welcome! If you find any issues or improvements, feel free to open a pull request.
 
 1. Fork the repository.
-2. Create a new branch: git checkout -b feature/your-feature-name
-3. Commit your changes: git commit -m 'Add some feature'
-4 . Push to the branch: git push origin feature/your-feature-name
+2. Create a new branch: git checkout -b feature/your-feature-name,
+3. Commit your changes: git commit -m 'Add some feature',
+4 . Push to the branch: git push origin feature/your-feature-name,
 5. Open a pull request.
 
 # License
