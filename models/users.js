@@ -4,12 +4,12 @@ const userSchema = new mongoose.Schema({
   username: { type: String, required: true },
   email: { type: String, required: true, unique: true },
   thoughts: [{ type: mongoose.Schema.Types.ObjectId, ref: 'thoughts' }],
-  friends: [{ type: mongoose.Schema.Types.ObjectId, ref: 'users' }],
+  friends: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Users' }],
 });
 
-const Users = mongoose.model('users', userSchema);
+const Users = mongoose.model('Users', userSchema);
 
-// User.create([
+// Users.create([
 //   { username: 'solomon22', email: 'solomon22@example.com', thoughts: [], friends: [], },
 //   { username: 'jacob2', email: 'jacob2@example.com', thoughts: [], friends: [], },
 //   { username: 'joseph2', email: 'josep2@test.com', thoughts: [], friends: [], },
