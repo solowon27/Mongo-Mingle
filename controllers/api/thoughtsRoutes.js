@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
     try {
         const thoughtData = await thoughts.findById(req.params.id); //find one thought by id and store in thoughtData
-        res.status(200).json(thoughtData);
+        res.status(200).json(thoughtData, reactionCount); //return the thoughtData
     } catch (err) {
         res.status(500).json(err);
     }
