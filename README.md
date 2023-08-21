@@ -1,5 +1,4 @@
 # Mongo-Mingle
-
 # description 
 
 Mongo Mingle is a web application that allows users to share their thoughts and reactions with each other. It provides an API for managing users, thoughts, and reactions using MongoDB and Express.js.
@@ -61,7 +60,7 @@ Use tools like Insomnia or Postman to interact with the API endpoints. Detailed 
 
 # Links
 
-1. video demo link []
+1. video demo link [https://drive.google.com/file/d/1zYqojshAp3SF69J5kavF3jr9-hhDF1T6/view]
 
 # Screenshoots
 
@@ -70,6 +69,8 @@ Use tools like Insomnia or Postman to interact with the API endpoints. Detailed 
 ![get all thoughts](/Assets/get%20all%20thoughts.jpg)
 ![create reactions](/Assets/create%20a%20reaction%20using%20thought%20id.jpg)
 ![create friends](/Assets/delet%20a%20new%20friend%20using%20friend%20id.jpg)
+![mongoDB users](/Assets/mongodb%20user%20%20samples.jpg)
+![mongoDB thoughts](/Assets/mongodb%20thoughts%20samples.jpg)
 
 ```NOTICE: YOU CAN FOUND ALL REQUEST TESTS INSIDE ASSET FOLDERS, THE ABOVE SCREEN SHOOTS ARE FOR THE DEMO ```
 
