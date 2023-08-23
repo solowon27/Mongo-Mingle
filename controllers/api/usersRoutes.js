@@ -1,5 +1,4 @@
 const { Users } = require('../../models');
-const { friends } = require('../../models');
 const { thoughts } = require('../../models');
 const express = require('express');
 const router = express.Router();
