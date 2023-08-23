@@ -5,16 +5,14 @@ const userSchema = new mongoose.Schema({
   email: { type: String, required: true, unique: true },
   thoughts: [{ type: mongoose.Schema.Types.ObjectId, ref: 'thoughts' }],
   friends: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Users' }],
-});
+},
+{ // Tell the schema that it can use virtuals
+  toJSON: {
+    virtuals: true,
+  },
+  id: false,
+  });
 
 const Users = mongoose.model('Users', userSchema);
-
-// Users.create([
-//   { username: 'solomon22', email: 'solomon22@example.com', thoughts: [], friends: [], },
-//   { username: 'jacob2', email: 'jacob2@example.com', thoughts: [], friends: [], },
-//   { username: 'joseph2', email: 'josep2@test.com', thoughts: [], friends: [], },
-// ])
-//   .then(users => console.log('Created users:', users))
-//   .catch(err => console.log('Error creating users:', err));
 
 module.exports = Users;
