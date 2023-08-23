@@ -13,6 +13,7 @@ Mongo Mingle is a web application that allows users to share their thoughts and 
 - [Screenshoots](#screenshoots)
 - [Contributing](#contributing)
 - [License](#license)
+- [Credit](#credit)
 - [contact](#contact)
 
 ## Features
@@ -85,6 +86,9 @@ Contributions are welcome! If you find any issues or improvements, feel free to 
 
 # License
 This project is licensed under the MIT License.
+
+# Credit
+I built this API based social media web app along with Github copilot!
 
 # Contact 
 
